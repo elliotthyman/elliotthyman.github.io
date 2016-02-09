@@ -15,11 +15,11 @@ function addItem() {
   delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
   //
-  numItems = $("li").length;
+  var numItems = $("li").length-7;
   $(".total").html(numItems + " destinations");
 
   // Challenge: Differentiate between 1 item vs. more items
-if (numItens == 1){
+if (numItems == 1){
   (".total").html(numItems + " destination");
 }
 else {
