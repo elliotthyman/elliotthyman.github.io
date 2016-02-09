@@ -19,7 +19,7 @@ function addItem() {
   $(".total").html(numItems + " destinations");
 
   // Challenge: Differentiate between 1 item vs. more items
-if (numItems == 1){
+if (numItems == 8){
   (".total").html(numItems + " destination");
 }
 else {
